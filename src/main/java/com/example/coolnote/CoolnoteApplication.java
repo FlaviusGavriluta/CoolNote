@@ -1,13 +1,13 @@
-package com.example.coolnotejavaflaviusgavriluta;
+package com.example.coolnote;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CoolNoteJavaFlaviusGavrilutaApplication {
+public class CoolnoteApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CoolNoteJavaFlaviusGavrilutaApplication.class, args);
+		SpringApplication.run(CoolnoteApplication.class, args);
 	}
 
 }
