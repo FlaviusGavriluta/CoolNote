@@ -20,8 +20,8 @@ public class NoteController {
 
     @GetMapping
     public String index(Model model) {
-        model.addAtribute("note", note);
-        model.addAtribute("editCount", editCount);
+        model.addAttribute("note", note);
+        model.addAttribute("editCount", editCount);
         return "index";
     }
 
