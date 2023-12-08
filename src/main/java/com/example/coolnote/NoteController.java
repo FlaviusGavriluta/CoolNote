@@ -13,11 +13,6 @@ public class NoteController {
     static String note;
     static int editCount = 0;
 
-    @GetMapping(value = "note")
-    public String displayAddNoteForm() {
-        return "note";
-    }
-
     @GetMapping
     public String index(Model model) {
         model.addAttribute("note", note);
@@ -27,7 +22,16 @@ public class NoteController {
 
     @PostMapping(value = "note")
     public String processAddNoteForm(@RequestParam String newNote) {
+        note = newNote;
         // Redirect to "/"
         return "redirect:";
+    }
+
+    @GetMapping(value = "note")
+    public String displayAddNoteForm(Model model){
+        model.addAttribute("title",editCount==0?"Add Note":"Edit Note");
+        model.addAttribute("note", note);
+        ++editCount;
+        return "note";
     }
 }
