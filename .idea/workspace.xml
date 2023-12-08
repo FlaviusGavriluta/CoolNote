@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa88569b-2db1-44ac-a56e-3ee1a2baa35b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/coolnote/NoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/coolnote/NoteController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +157,7 @@
       <workItem from="1701766595830" duration="355000" />
       <workItem from="1701944166254" duration="970000" />
       <workItem from="1701949290899" duration="3046000" />
-      <workItem from="1702016873060" duration="21000" />
+      <workItem from="1702016873060" duration="1036000" />
     </task>
     <servers />
   </component>
